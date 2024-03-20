@@ -1,0 +1,95 @@
+header {
+    background-color: #101010;
+}
+
+.container-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected {
+    border-bottom: solid 1px #ff000042;
+}
+
+
+.options-menu > ul > li > a {
+    color: #752121;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 23px;
+}
+
+.options-menu > ul > li > a:hover{
+    color: #ff000042;
+}
+
+.container-list > li{
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.container-list img {
+    width: 140px;
+}
+
+
+
+
+
+/* Menu responsivo */
+.checkbtn{
+    color: white;
+    float: right;
+    font-size: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    line-height: 80px;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width: 1320px){
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #222;
+        border-top: 1px solid #752121;
+        border-left: 1px solid #752121;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .container-list{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li{
+        display: block;
+        line-height: 30px;
+        margin: 50px 0;
+    }
+
+    nav ul li a{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/* Fim Menu responsivo */

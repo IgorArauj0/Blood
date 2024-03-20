@@ -1,0 +1,37 @@
+.section-destaques {
+    background: #101010;
+    color: black;
+    padding: 20px 0;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+.container-destaques {
+    display: inline-block;
+    margin: 10px;
+}
+
+.img-lanche {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.img-lanche:hover{
+    transform: scale(1.1);
+}
+
+
+.section-destaques > h2 {
+    color: #752121;
+}
+
+
+.container-destaques > h3 {
+    color: #752121;
+}

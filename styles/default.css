@@ -1,0 +1,38 @@
+*{
+border: 0;
+padding: 0;
+margin: 0;
+vertical-align: baseline;
+list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+body :: -webkit-scrollbar {
+    width: 12px ;         /* largura de toda a barra de rolagem */
+}
+  
+body :: -webkit-scrollbar-track {
+    background :  rgb(0, 0, 0) ;        /* cor da área de rastreamento */
+}
+
+body :: -webkit-scrollbar-thumb {
+    background-color: #752121;    /* cor da miniatura de rolagem */
+    border-radius:  20 px;       /* arredondamento do polegar de rolagem */
+    border :  3px solid rgb(0, 0, 0);  /* cria preenchimento em torno do polegar de rolagem */
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #752121;
+}
+
+h1 {
+    color: #752121;
+}

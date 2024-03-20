@@ -1,0 +1,39 @@
+.neymar, .md-chefe, .defante, .gabi {
+    width: 100px;
+    height: 100px;
+}
+
+#section-avaliacao {
+    background-color: #101010;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+#section-avaliacao > h2 {
+    color: #752121;
+}
+
+
+
+.card-avaliacao > h3 {
+    color: #752121;
+}
+
+#section-avaliacao p {
+    color: #752121;
+    font-weight: 600;
+}
+
+.card-avaliacao {
+    width: 250px;
+}
+
+.img-avaliacao {
+     border-radius: 50%; 
+}
+
+.container-avaliacao {
+    display: inline-block;
+    margin: 10px;
+}
