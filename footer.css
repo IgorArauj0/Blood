@@ -1,0 +1,78 @@
+footer {
+    padding: 10rem 3.12rem;
+    background-color: rgb(21, 4, 37);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+footer p {
+    margin: 2rem;
+}
+
+footer h2 {
+    font-size: 1.6rem;
+}
+
+
+
+.div-line {
+    display: flex;
+    flex-direction: column;
+}
+.div-line img {
+    width: 7rem;
+}
+
+.line {
+    width: 9rem;
+    
+}
+
+.div-sociais a i {
+  font-size: 40px;
+  color: white;
+  background-color: gray;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-left: 5px;
+}
+
+.div-sociais a i:hover{
+    background-color: purple;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.div-sociais {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.listas-footer ul li {
+  margin-bottom: 0.8rem;
+}
+
+
+
+
+
+
+@media(max-width: 400px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        
+    }
+}
+/* Fim Menu responsivo */
